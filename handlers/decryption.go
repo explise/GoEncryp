@@ -37,3 +37,4 @@ func Decrypt(filename string, password string) {
 	file.Seek(0,0)
 	file.Write(plainText)
 }
+
